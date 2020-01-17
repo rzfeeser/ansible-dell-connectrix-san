@@ -1,0 +1,7 @@
+[dell]
+; description of a Dell Connetrix switches
+ds5100B	ansible_host=10.127.31.41 ansible_network_os=brocade
+92222i ansible_host=10.127.31.40 ansible_network_os=nxos
+
+[dellsan]
+ds5100b ansible_connection=local fos_ip_addr=10.127.31.41 ansible_python_interpreter=/usr/bin/python3
